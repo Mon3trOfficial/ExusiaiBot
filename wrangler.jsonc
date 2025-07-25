@@ -1,0 +1,13 @@
+{
+    "name": "exusiaibot",
+    "main": "src/worker.js",
+    "compatibility_date": "2022-07-12",
+    "workers_dev": false,
+    "kv_namespaces": [
+        {
+            "binding": "lu_kv",
+            "id": "5dd17c5376bd4a94a5b55f1542794d93"
+        }
+    ],
+    "env": {}
+}
