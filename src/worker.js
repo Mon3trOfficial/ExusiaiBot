@@ -1,4 +1,4 @@
-const raw_parser = require('./module/raw_parser.module')
+const raw_parser = require('./modules/raw_parser.mod.js')
 
 export default {
   async fetch(request, env, ctx) {
@@ -15,6 +15,8 @@ export default {
         message_json = JSON.parse(body);
       });
     }
+
+    raw_parser.parse(message_json[raw_message])
 
   },
 };
