@@ -1,2 +1,2 @@
-# ExusiaiBot
+# SchwarzBot
 QQ Bot by cloudflare worker
