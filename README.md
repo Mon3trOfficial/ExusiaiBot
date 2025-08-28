@@ -1,2 +1,2 @@
 # SchwarzBot
-QQ Bot by cloudflare worker
+An example QQ Bot for QQban
